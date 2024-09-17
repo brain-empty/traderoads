@@ -1,0 +1,16 @@
+- cities (randomly generated)
+	- random name gen? use basic array for starters
+	- random "produce" balance. all sum up to a narrow range to have fair and balanced produce
+	- pricing based on abundance of produce
+
+- set prices of items based on local and global scarcity. if an item is produced in fewer cities, the few cities who can produce it sell for higher rates, while with the same local production, if the item was more abundant elsewehre, the item would still not be as highly rated.
+
+
+- eventually integrate seasonal price differences. this is harder to plan, leave for now. should certainly make things interesting with time taken to travel being an actual important factor.
+	- items can also then have time to die and general loss of value based on time since creation/purchase. to avoid someone buying everything and never selling it 
+
+- cities can have simple layouts, every city has a road NSWE, each route possiblye leading to another city
+	- routes aren't just arrays pointing to other cities, but actual objects. each route has factors, like the terrain difficulty (time to travel affected and health of cart reduction) and risk of bandits (health and coin loss)
+	- the route taken also determines the cost of the route. along with time, the resources consumed by the traveller also costs. maybe health of cart can be merged into hte coin but it takes away one mechanic, choose based on difficulty preference.
+
+- carts have health, carrying capacity and speed. optionally terrain handling (not sure if i wanna make it THAT complex though)
